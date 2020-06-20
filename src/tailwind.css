@@ -1,0 +1,7 @@
+/*
+The Tailwind PostCSS plugin will replace these @tailwind directives with Tailwind’s generated CSS and 
+write it out to src/tailwind.generated.css (that name is decided by the build:tailwind script we added 
+to package.json).*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
